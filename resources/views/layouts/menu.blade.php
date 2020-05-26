@@ -60,7 +60,7 @@
 </li>
 
 <li class="#">
-    <a href="http://127.0.0.1:8000/home"><i class="fa fa-bar-chart"></i><span>Статистика</span></a>
+    <a href="/users/{{ Auth::user()->id }}"><i class="fa fa-bar-chart"></i><span>Статистика</span></a>
 </li>
 
 <li class="#">
